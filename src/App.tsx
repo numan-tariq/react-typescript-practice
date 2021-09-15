@@ -1,6 +1,7 @@
 import "./App.css";
-import LoggedIn from "./components/State/LoggedIn";
-import User from "./components/State/User";
+import Counter from "./components/State/Counter";
+// import LoggedIn from "./components/State/LoggedIn";
+// import User from "./components/State/User";
 // import Container from "./components/Container/Container";
 // import Button from "./components/Button";
 // import Input from "./components/Input";
@@ -59,7 +60,8 @@ function App() {
 
       {/* UseState Future Value
        <User /> */}
-       
+
+      <Counter />
     </div>
   );
 }
