@@ -1,5 +1,10 @@
 import "./App.css";
-import Counter from "./components/State/Counter";
+import Box from "./components/context/Box";
+
+import User from "./components/context/User";
+import UserContextProvider from "./components/context/UserContext";
+// import User from "./components/State/User";
+// import Counter from "./components/State/Counter";
 // import LoggedIn from "./components/State/LoggedIn";
 // import User from "./components/State/User";
 // import Container from "./components/Container/Container";
@@ -61,7 +66,16 @@ function App() {
       {/* UseState Future Value
        <User /> */}
 
-      <Counter />
+      {/* UseReducer Hook
+      <Counter /> */}
+
+      {/* UseContext Hook
+      <Box /> */}
+
+      {/* UseContext Hook handling Future value
+      <UserContextProvider>
+        <User />
+      </UserContextProvider> */}
     </div>
   );
 }
